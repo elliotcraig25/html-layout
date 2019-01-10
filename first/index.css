@@ -1,0 +1,33 @@
+.the-head {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(75, 75, 75);
+}
+
+.right-side {
+    height: calc(100vh - 100px);
+    width: 100px;
+    background-color: rgb(200, 200, 200);
+    float: right;
+}
+
+.left-side {
+    height: calc(100vh - 100px);
+    width: 100px;
+    background-color: rgb(200, 200, 200);
+    float: left;
+}
+
+.middle {
+    height: calc(100vh - 100px);
+    width: calc(100% - 200px);
+    float: right;
+}
+
+.bottom-middle {
+    width: calc(100% - 200px);
+    height: 75px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+}
